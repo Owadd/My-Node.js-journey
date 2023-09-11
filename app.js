@@ -1,6 +1,8 @@
-// Reading Files Asynchronously
 const readline =  require('readline');
 const fs = require('fs');
+
+// I couldn't get the commented code below to work 
+
 
 // fs.readFile('./Files/start.txt','utf-8',(error1,data1) =>{
 //     console.log(data1); // start.txt contains the word "input"
@@ -14,8 +16,10 @@ const fs = require('fs');
 //         })
 //     })
 //  } )
-
 // console.log('Reading File...');
+
+
+// This one below also didn't work
 
 const http = require('http');
 
